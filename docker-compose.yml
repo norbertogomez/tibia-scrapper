@@ -1,0 +1,8 @@
+version: '3'
+
+services:
+  tibia-scrapper:
+    container_name: tibia-scrapper
+    build:
+      context: .
+      dockerfile: Dockerfile
